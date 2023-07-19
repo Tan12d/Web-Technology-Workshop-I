@@ -1,0 +1,29 @@
+p
+{
+    background-color: yellow;
+}
+
+div p
+{
+    background-color: aqua;
+}
+
+div > p
+{
+    background-color: pink;
+}
+
+div+p
+{
+    background-color: blueviolet;
+}
+
+li:nth-child(2n+3)
+{
+    background-color: coral;
+}
+
+a[target=_self]
+{
+    background-color: aquamarine;
+}

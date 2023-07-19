@@ -1,0 +1,241 @@
+/* body
+{
+    background-color: coral;
+}
+
+.container
+{
+    width: 100%;
+    display: flex;
+    height: 5000px;
+    border: 2px solid black;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+h2
+{
+    display: block;
+    text-align: center;
+}
+
+.box1
+{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    margin: 2%;
+     align-self: flex-start; 
+    order:2;
+}
+
+.box2
+{
+    height: 200px;
+    width: 200px;
+    background-color:blue;
+    margin: 2%;
+    flex-shrink: 2;
+    order:3
+}
+
+.box3
+{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    margin: 2%;
+} */
+
+body
+{
+    height: 10000px;
+}
+
+#a1 p
+{
+    font-size: 2em;
+    color: red;
+}
+
+#box1
+{
+    height: 150px;
+    width: 500px;
+    background-color: red;
+    color: aliceblue;
+    border: 2px solid black;
+    border-right: 0px;
+    margin: 1%;
+
+}
+
+#box1 p,h4
+{
+    margin: 7%;
+}
+
+#box2
+{
+    height: 150px;
+    width: 500px;
+    background-color: yellow;
+    border: 2px solid black;
+    border-right: 0px;
+    margin: 1%;
+}
+
+#box2 p,h4
+{
+    margin: 7%;
+}
+
+#box3
+{
+    height: 150px;
+    width: 500px;
+    color: aliceblue;
+    background-color: blue;
+    border: 2px solid black;
+    border-right: 0px;
+    margin: 1%;
+}
+
+#box3 p,h4
+{
+    margin: 7%;
+}
+
+
+#b h2
+{
+    background-color: darkgreen;
+    display: inline;
+    font-size: 18pt;
+}
+
+#b table 
+{
+    margin-top: 3%;
+    border: 2px solid grey;
+}
+
+#b th
+{
+    background-color: pink;
+}
+
+#c
+{
+    display: flex;
+}
+
+#d2
+{
+    border: 2px solid green;
+    border-right: 0px;
+    margin-left: 20px;
+
+}
+
+#e
+{
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+#f1
+{
+    background-color: gray;
+    color: white;
+    height: 150px;
+    width: 100%;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+}
+
+#f3
+{
+    background-color: gray;
+    color: white;
+    height: 150px;
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#f table
+{
+    float: left;
+}
+
+#f table td
+{
+    background-color:dodgerblue;
+    width: 200px;
+    height: 30px;
+    color: aliceblue;
+}
+
+#g p
+{
+    color: aliceblue;
+    margin-top: -30px;
+}
+
+#b1
+{
+    height: 100px;
+    width: 70%;
+    background-color: yellow;
+    z-index:-1;
+    margin-top: 100px;
+}
+
+#b2
+{
+    height: 100px;
+    width: 70%;
+    background-color: red;
+    margin-left: 10%;
+    bottom: 20px;
+    margin-top: -120px;
+}
+
+#b3
+{
+    height: 100px;
+    width: 70%;
+    background-color: green;
+    margin-left: 20%;
+    margin-top: -150px;
+}
+
+.l
+{
+    background-color: rgb(97, 204, 204);
+    border: 4px solid red;
+    height: 30%;
+    width: 80%;
+    text-align: center;
+    border-right-color: brown;
+    border-bottom-color:brown;
+}
+
+#m1
+{
+    text-align: center;
+    color: red;
+}
+
+#m2
+{
+    text-align: center;
+    color: red;
+    font-size: large;
+}
+

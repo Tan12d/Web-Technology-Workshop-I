@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+   }
+   
+   .main{
+    height: 2400px;
+    width: 2400px;
+    /* border: 5px solid red; */
+    border: 15px solid black;
+    margin: 30px;
+    /* margin-left: 300px; */
+    /* padding: 20px; */
+   }
+   
+   .rows_odd,.rows_even{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    /* flex-wrap: nowrap; */
+    /* flex-direction: row; */
+   }
+   
+   .rows_odd #white{
+    height: 300px;
+    width: 300px;
+    background: yellow;
+   }
+   
+   .rows_odd #black{
+    height:300px;
+    width: 300px;
+    background: green;
+   }
+   
+   .rows_even{
+    flex-direction: row-reverse;
+   }
+   
+   .rows_even #white{
+    height: 300px;
+    width: 300px;
+    background: yellow;
+   }
+   
+   .rows_even #black{
+    height:300px;
+    width: 300px;
+    background: green;
+   }
