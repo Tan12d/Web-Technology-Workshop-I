@@ -1,0 +1,10 @@
+.con
+{
+    border-top: 80px solid red;
+    border-left: 80px solid green;
+    border-bottom: 80px solid yellow;
+    border-right: 80px solid blue;
+    background-color: black;
+    height: 20px;
+    width: 20px;
+}

@@ -1,0 +1,74 @@
+ .container
+{
+    height: 790px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    background-color: pink;
+
+}
+
+#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9,#b10
+{
+    height: 100px;
+    width: 100px;
+    background-color: indigo;
+    margin: 5px;
+    padding: 10px;
+}
+
+#b1
+{
+    flex-basis: 10px;
+    flex-grow: 4px;
+}
+
+#b2
+{
+    flex-grow: 2px;
+}
+
+#b3
+{
+    flex-basis: 10px;
+    flex-shrink: 3px;
+}
+
+#b4
+{
+    flex-shrink: 3px;
+}
+
+#b5
+{
+    flex-basis:9px;
+    flex-grow: 3px;
+}
+
+#b6
+{
+    flex-shrink: 2px;
+}
+
+#b7
+{
+    flex-grow: 8px;
+}
+
+#b8
+{
+    flex-grow: inherit;
+}
+
+#b9
+{
+    flex-grow: 2px;
+}
+
+#b10
+{
+    flex-basis: 1px;
+    flex-grow: 3px;
+}

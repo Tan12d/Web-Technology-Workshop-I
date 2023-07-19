@@ -1,0 +1,79 @@
+.container
+{
+    height: 900px;
+    width:100%;
+    background-color: aqua;
+}
+
+.box
+{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    background-color:chocolate;
+    animation-name: my_anm;
+    animation-duration: 5s;
+    animation-iteration-count: 10;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    transition-property: background-color;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+    animation-direction: reverse;
+    border-radius: 50%;
+}
+
+/* .box:hover
+{
+    background-color: blueviolet;
+    transform:translate(450depx,250px);
+    transform: scale(2);
+} */
+
+@keyframes my_anm
+{
+    /* from
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+    to
+    {
+        width: 200px; 
+        height: 200px;       
+    }  */
+
+    0%
+    {
+        top: 70px;
+        left: 20px;
+    }
+
+    25%
+    {
+        top: 70px;
+        left: 1000px;
+    }
+
+    50%
+    {
+        top: 500px;
+        left:1000px;
+    }
+
+    75%
+    {
+        top: 500px;
+        left: 0px;
+    }
+
+    100%
+    {
+        top: 0px;
+        left: 0px;
+    }
+}

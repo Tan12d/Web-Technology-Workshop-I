@@ -1,0 +1,54 @@
+.grid
+{
+    display: grid;
+    grid-template: repeat(4, 1fr);
+    grid-template-areas: 
+    'nav nav nav nav'
+    'section section aside aside'
+    'footer footer footer footer';
+}
+
+.navbar
+{
+    grid-area: nav;
+    background-color: cadetblue;
+    border: 2px solid black;
+    padding: 30px;
+}
+
+.Section
+{
+    grid-area: section;
+    background-color: brown;
+    border: 2px solid black;
+    padding: 30px;
+}
+
+.aside
+{
+    grid-area:aside;
+    background-color: chocolate;
+    border: 2px solid black;
+    padding: 30px;
+}
+
+.footer
+{
+    grid-area: footer;
+    background-color: darkgreen;
+    border: 2px solid black;
+    padding: 30px;
+}
+
+@keyframes
+{
+    form
+    {
+        width:0px;
+    }
+
+    to
+    {
+        width: 400px;
+    }
+}

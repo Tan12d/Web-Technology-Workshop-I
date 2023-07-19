@@ -1,0 +1,48 @@
+.container
+{
+    /* border: 3px solid grey; */
+    height: 438px;
+    width: 341px;
+    display: grid;
+    grid-gap: 1rem;
+    /* grid-template-columns:100px 100px 100px; */
+    opacity: 0.8;
+    color:maroon;
+}
+
+.b
+{
+    background-color: burlywood;
+    border-radius: 8px;
+    border: 3px solid orange;
+    font-weight: 800;
+}
+
+#b1
+{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-end: 2;
+}
+
+#b2
+{
+    grid-column-start:2 ;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    opacity: 0.8;
+    
+}
+
+#b3
+{
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+#b4
+{
+    grid-column-start: 3;
+
+}

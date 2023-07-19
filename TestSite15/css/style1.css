@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    height: 1200px;
+    background-color: pink;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    background-color: #f1f1f1;
+    position: sticky;
+    height: 400px;
+    text-align: center;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: blueviolet;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+  div
+  {
+    margin-left:30%;
+    padding:1px 14px;
+    height:800px;
+  }

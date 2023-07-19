@@ -1,0 +1,81 @@
+.container
+{
+    height: 700px;
+    width: 100%;
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: column;
+}
+
+#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8
+{
+    height: 20px;
+    width: 30%;
+    background-color: darkmagenta;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 5px cyan;
+    animation-name: my;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-delay: 1s;
+}
+
+#b1
+{
+    transform: scale(0.5);
+}
+
+#b2
+{
+    transform: scale(0.2);
+}
+
+#b3
+{
+    transform: scale(0.4);
+}
+
+#b4
+{
+    transform: scale(0.7);
+}
+
+#b5
+{
+    transform: scale(0.9);
+}
+
+#b6
+{
+    transform: scale(0.8);
+}
+
+#b7
+{
+    transform: scale(0.5);
+}
+
+#b8
+{
+    transform: scale(0.2);
+}
+
+@keyframes my 
+{
+    from
+    {
+        width: 30%;
+    }
+
+    to
+    {
+        width: 100%;
+    }
+
+    50%
+    {
+        background-color: cadetblue;
+    }    
+}

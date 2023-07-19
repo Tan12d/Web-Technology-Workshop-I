@@ -1,0 +1,57 @@
+body
+{
+    background-image: url(images/image-plane.jpg);
+}
+
+.con
+{
+    height: 2000px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.box1,.box2,.box3
+{
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 5px;
+    box-shadow: 2px 4px 8px 6px;
+}
+
+.con p
+{
+    text-shadow: 2px 4px 3px ;
+}
+
+.box1
+{
+    background-color: aqua;
+}
+
+.box2
+{
+    background-color: aquamarine;
+}
+
+.box3
+{
+    background-color: blueviolet;
+}
+
+.box1:hover
+{
+    transform: scale(1.3);
+}
+
+.box2:hover
+{
+    transform: scale(1.2);
+}
+
+.box3:hover
+{
+    transform: scale(1.1);
+}
+
